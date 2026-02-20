@@ -156,8 +156,8 @@
 							<inputSpec>${project.basedir}/src/main/resources/openapi-data.yaml</inputSpec>
 							<generatorName>spring</generatorName>
 							<output>${project.build.directory}/generated-sources/openapi</output>
+							<apiPackage>ru.shishkin.data.api</apiPackage>
 							<modelPackage>ru.shishkin.data.model</modelPackage>
-							<basePackage>ru.shishkin.data</basePackage>
 							<configOptions>
 								<interfaceOnly>true</interfaceOnly>
 								<useJakartaEe>true</useJakartaEe>

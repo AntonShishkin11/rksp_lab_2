@@ -1,4 +1,4 @@
-package ru.shishkin.data_service;
+package ru.shishkin.data;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

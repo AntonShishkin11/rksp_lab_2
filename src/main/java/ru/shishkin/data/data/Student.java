@@ -1,10 +1,15 @@
-package ru.shishkin.data_service.data;
+package ru.shishkin.data.data;
+
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
 @Entity
 @Table(name = "student", schema = "utmn")
 public class Student {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)

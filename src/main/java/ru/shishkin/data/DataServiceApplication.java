@@ -1,4 +1,4 @@
-package ru.shishkin.data_service;
+package ru.shishkin.data;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
